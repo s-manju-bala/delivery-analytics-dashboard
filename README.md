@@ -93,6 +93,9 @@ Used **Pandas**, **Matplotlib**, and **Seaborn** for:
 ### Bottom 5 Vendors
 ![Bottom Vendors](https://github.com/user-attachments/assets/ec6cdd87-ea0f-4aff-9957-830d1403bfff)
 
+📂 Download the full Power BI Dashboard (.pbix):  
+https://drive.google.com/file/d/1NQCy8RvJGUFgaYSnLD35DcTizAGjM5Ux/view?usp=sharing
+
 ---
 
 ## 🧰 Tools Used
