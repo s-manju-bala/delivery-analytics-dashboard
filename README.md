@@ -16,17 +16,32 @@ Analyze end-to-end delivery lifecycle using:
 ## 🐍 Python: Exploratory Data Analysis (EDA)
 
 Used **Pandas**, **Matplotlib**, and **Seaborn** for:
-- Cleaning and merging `vendor_invoice`, `purchases`, `sales`, and `purchase_prices`
-- Derived key features like:
+- Cleaning and merging:
+  - `vendor_invoice.csv`
+  - `purchases.csv`
+  - `sales.csv`
+  - `purchase_prices.csv`
+- Feature engineering:
   - `DeliveryTimeInDays`
   - `InvoiceProcessingTimeInDays`
   - `PaymentProcessingTimeInDays`
   - `TotalCycleTimeInDays`
-  - `GrossProfit`, `ProfitMargin`
+  - `GrossProfit`, `ProfitMargin`, and `SalesToPurchaseRatio`
   - `IsLate` (based on SLA of 3 days)
-- Exported clean datasets for Power BI:
+- Exported processed files:
   - `vendor_performance_summary.csv`
   - `delivery_timing_summary.csv`
+
+---
+
+## 💡 SQL Processing Highlights
+
+Used **SQL CTEs** (Common Table Expressions) to:
+- Aggregate delivery records across vendors and POs
+- Join multiple tables with clean, readable queries
+- Derive metrics for funnel analysis and stage tracking
+
+---
 
 ---
 
